@@ -5,7 +5,7 @@ alienworlds claim is low memory tool for alienworlds,it can monitor more than 10
 
 感谢帮忙测试的小伙伴,目前已经挂了超过1000多个号了,就是需要很多服务器,正在优化,准备做个协议的版本的,这个其实就是eos币的流程  
 
-目前实现功能
+目前实现功能  
 1、支持本地算哈希 不需要开浏览器再算了（js速度不太行，之前用nodejs做了一个专门算hex的服务端，并发一高就宕机了，所以用golang重写了） 但是算完后claim需要开浏览器，目前用golang调用selenium做到了  
 2、获取实时余额上传后台，这个用于批量账号管理的  
 3、自动从后台获取需要挖矿的账号进行挖矿  
